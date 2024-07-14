@@ -38,7 +38,7 @@ SECONDS = int(os.getenv("SECONDS", "600"))  # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3"))
 
 
 # start message
@@ -46,7 +46,7 @@ START_MSG = os.environ.get(
     "START_MESSAGE", "🌸 ᴀʀɪɢᴀᴛᴏᴜ, {first}!\n\n 🌸 ᴇᴍʙʀᴀᴄᴇ ᴛʜᴇ ᴀɴɪᴍᴇ ᴍᴀɢɪᴄ! ʜᴇʀᴇ, ᴘɪxᴇʟꜱ ᴅᴀɴᴄᴇ, ꜱᴛᴏʀɪᴇꜱ ᴜɴꜰᴏʟᴅ, ᴀɴᴅ ᴇᴍᴏᴛɪᴏɴꜱ ɪɢɴɪᴛᴇ. ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜱᴀɴᴄᴛᴜᴀʀʏ—ᴀ ᴘʟᴀᴄᴇ ᴡʜᴇʀᴇ ᴀɴɪᴍᴇ ᴅʀᴇᴀᴍꜱ ᴛᴀᴋᴇ ꜰʟɪɢʜᴛ. ᴇɴᴊᴏʏ ᴛʜᴇ ᴊᴏᴜʀɴᴇʏ! 🌟")
 
 try:
-    ADMINS = [6693549185]
+    ADMINS = [1768198143]
     for x in (os.environ.get("ADMINS", "1768198143 6450266465 7065803173").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ʙᴀᴋᴀᴀ! ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴍᴇ ᴍᴇꜱꜱᴀɢᴇ"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6693549185)
+ADMINS.append(1768198143)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
