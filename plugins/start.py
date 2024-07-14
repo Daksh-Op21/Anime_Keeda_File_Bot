@@ -182,7 +182,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
         # Inform user about completion of deletion process
-        await deletion_msg.edit_text("<b><i>This File\Video is sucessfully Deleted✅</i></b>")
+        await deletion_msg.edit_text("<b><i>This File/Video is sucessfully Deleted✅</i></b>")
 
     else:
         # No files found, inform the user
