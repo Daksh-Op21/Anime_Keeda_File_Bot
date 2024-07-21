@@ -65,7 +65,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡️ ᴀʙᴏᴜᴛ", callback_data="about"),
+                        "ᴀʙᴏᴜᴛ", callback_data="about"),
                     InlineKeyboardButton(
                         "ᴄʟᴏꜱᴇ", callback_data="close")
                 ]
@@ -166,7 +166,7 @@ async def start_command(client: Client, message: Message):
         # Notify the user about the deletion process and wait before deletion
         deletion_msg = await client.send_message(
             chat_id=message.from_user.id,
-            text="<b>❗️ <u>ᴜʀɢᴇɴᴛ</u> ❗️</b>\n\nʏᴏ, ʟɪsᴛᴇɴ ᴜᴘ! ᴛʜɪs ᴇᴘɪsᴏᴅᴇ / ꜰɪʟᴇ ɪs ᴏɴ ᴛʜᴇ ᴄʜᴏᴘᴘɪɴɢ ʙʟᴏᴄᴋ, sᴇᴛ ᴛᴏ ᴠᴀɴɪsʜ ɪɴ 10 ᴍɪɴᴜᴛᴇs (ᴛʜᴀɴᴋs ᴛᴏ ᴘᴇsᴋʏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs).\n\n📌 ʜᴜʀʀʏ ᴀɴᴅ sᴘʀᴇᴀᴅ ɪᴛ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴘʟᴀᴄᴇ, sᴛᴀʀᴛ ᴛʜᴇ ᴅᴏᴡɴʟᴏᴀᴅ ᴀsᴀᴘ!",
+            text="<b><center>❗<u> Important </u> ❗</center></b>\n\nSorry Dude This File/Video Will Be Deleted in 10 min\n\n🍁So, Please Immediately Save This File In Your Saved Messages.🍂",
             parse_mode=ParseMode.HTML
         )
 
