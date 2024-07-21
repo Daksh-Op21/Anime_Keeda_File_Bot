@@ -43,10 +43,10 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3"))
 
 # start message
 START_MSG = os.environ.get(
-    "START_MESSAGE", "🌸 ᴀʀɪɢᴀᴛᴏᴜ, {first}!\n\n 🌸 ᴇᴍʙʀᴀᴄᴇ ᴛʜᴇ ᴀɴɪᴍᴇ ᴍᴀɢɪᴄ! ʜᴇʀᴇ, ᴘɪxᴇʟꜱ ᴅᴀɴᴄᴇ, ꜱᴛᴏʀɪᴇꜱ ᴜɴꜰᴏʟᴅ, ᴀɴᴅ ᴇᴍᴏᴛɪᴏɴꜱ ɪɢɴɪᴛᴇ. ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜱᴀɴᴄᴛᴜᴀʀʏ—ᴀ ᴘʟᴀᴄᴇ ᴡʜᴇʀᴇ ᴀɴɪᴍᴇ ᴅʀᴇᴀᴍꜱ ᴛᴀᴋᴇ ꜰʟɪɢʜᴛ. ᴇɴᴊᴏʏ ᴛʜᴇ ᴊᴏᴜʀɴᴇʏ! 🌟")
+    "START_MESSAGE", "🌸 𝑲𝒐𝒏𝒏𝒊𝒄𝒉𝒊𝒘𝒂! {mention}\n\n𝑰’𝒎 𝑺𝒉𝒊𝒏𝒄𝒉𝒂𝒏 𝑩𝒐𝒕! 𝑺𝒉𝒂𝒓𝒆 𝒚𝒐𝒖𝒓 𝒂𝒏𝒊𝒎𝒆 𝒇𝒊𝒍𝒆𝒔, 𝒂𝒏𝒅 𝑰’𝒍𝒍 𝒎𝒂𝒌𝒆 𝒔𝒖𝒓𝒆 𝒕𝒉𝒆𝒚 𝒓𝒆𝒂𝒄𝒉 𝒇𝒆𝒍𝒍𝒐𝒘 𝒇𝒂𝒏𝒔. 𝑳𝒆𝒕’𝒔 𝒔𝒑𝒓𝒆𝒂𝒅 𝒕𝒉𝒆 𝒂𝒏𝒊𝒎𝒆 𝒍𝒐𝒗𝒆! 🌟📁✨")
 
 try:
-    ADMINS = [1768198143]
+    ADMINS = [6450266465]
     for x in (os.environ.get("ADMINS", "1768198143 6450266465 7065803173").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -54,7 +54,7 @@ except ValueError:
 
 
 FORCE_MSG = os.environ.get(
-    "FORCE_SUB_MESSAGE", "<b><center> 🌸 𝙆𝙤𝙣𝙣𝙞𝙘𝙝𝙞𝙬𝙖, 𝙛𝙚𝙡𝙡𝙤𝙬 𝙤𝙩𝙖𝙠𝙪! 🌸 </center>\n\n 𝙄𝙛 𝙮𝙤𝙪’𝙧𝙚 𝙖 𝙩𝙧𝙪𝙚 𝙨𝙚𝙣𝙥𝙖𝙞, 𝙟𝙤𝙞𝙣 𝙢𝙮 𝙘𝙝𝙖𝙣𝙣𝙚𝙡𝙨 𝙖𝙣𝙙 𝙡𝙚𝙩’𝙨 𝙬𝙚𝙖𝙫𝙚 𝙤𝙪𝙧 𝙖𝙣𝙞𝙢𝙚 𝙢𝙖𝙜𝙞𝙘 𝙩𝙤𝙜𝙚𝙩𝙝𝙚𝙧! 🎉 𝙇𝙚𝙩’𝙨 𝙨𝙥𝙧𝙞𝙣𝙠𝙡𝙚 𝙖 𝙡𝙞𝙩𝙩𝙡𝙚 “𝙠𝙖𝙬𝙖𝙞𝙞” 𝙞𝙣𝙩𝙤 𝙤𝙪𝙧 𝙘𝙤𝙣𝙫𝙚𝙧𝙨𝙖𝙩𝙞𝙤𝙣𝙨, 𝙗𝙚𝙘𝙖𝙪𝙨𝙚 𝙡𝙞𝙛𝙚 𝙞𝙨 𝙗𝙚𝙩𝙩𝙚𝙧 𝙬𝙞𝙩𝙝 𝙖 𝙩𝙤𝙪𝙘𝙝 𝙤𝙛 𝙅𝙖𝙥𝙖𝙣𝙚𝙨𝙚 𝙛𝙡𝙖𝙞𝙧. 🌟🇯🇵</b>")
+    "FORCE_SUB_MESSAGE", "<center> ꜱᴇɴᴘɪᴇ </center>\n\nᴛᴏ ᴜꜱᴇ ᴍᴇ ᴊᴏɪɴ ᴛᴏ ᴍʏ ᴄʜᴀɴɴᴇʟ ꜰɪʀꜱᴛ")
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
